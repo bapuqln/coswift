@@ -34,11 +34,12 @@
 		2316E0C424963E8000FC8DCA /* coroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 2316E0B124963E8000FC8DCA /* coroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2316E0C524963E8000FC8DCA /* co_autorelease.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2316E0B224963E8000FC8DCA /* co_autorelease.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2316E0CA24963EA500FC8DCA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2316E0C924963EA500FC8DCA /* libc++.tbd */; };
-		2316E0D224963F0100FC8DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316E0D124963F0100FC8DCA /* AppDelegate.swift */; };
-		2316E0D424963F0100FC8DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316E0D324963F0100FC8DCA /* ViewController.swift */; };
-		2316E0D624963F0200FC8DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2316E0D524963F0200FC8DCA /* Assets.xcassets */; };
-		2316E0D924963F0200FC8DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2316E0D724963F0200FC8DCA /* Main.storyboard */; };
-		2316E0EE24963F4100FC8DCA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316E0ED24963F4100FC8DCA /* DataService.swift */; };
+		2316E147249642FC00FC8DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316E13E249642FC00FC8DCA /* ViewController.swift */; };
+		2316E148249642FC00FC8DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2316E13F249642FC00FC8DCA /* Assets.xcassets */; };
+		2316E149249642FC00FC8DCA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316E140249642FC00FC8DCA /* DataService.swift */; };
+		2316E14A249642FC00FC8DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2316E142249642FC00FC8DCA /* Main.storyboard */; };
+		2316E14B249642FC00FC8DCA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2316E144249642FC00FC8DCA /* Info.plist */; };
+		2316E14C249642FC00FC8DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2316E146249642FC00FC8DCA /* AppDelegate.swift */; };
 		23E9398924963DE20067B743 /* coswift.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E9398724963DE20067B743 /* coswift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -82,14 +83,14 @@
 		2316E0B124963E8000FC8DCA /* coroutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coroutine.h; sourceTree = "<group>"; };
 		2316E0B224963E8000FC8DCA /* co_autorelease.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = co_autorelease.mm; sourceTree = "<group>"; };
 		2316E0C924963EA500FC8DCA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		2316E0CF24963F0100FC8DCA /* coswiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coswiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2316E0D124963F0100FC8DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2316E0D324963F0100FC8DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2316E0D524963F0200FC8DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2316E0D824963F0200FC8DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2316E0DA24963F0200FC8DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2316E0DB24963F0200FC8DCA /* coswiftDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = coswiftDemo.entitlements; sourceTree = "<group>"; };
-		2316E0ED24963F4100FC8DCA /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2316E12B249641EB00FC8DCA /* coswiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coswiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2316E13E249642FC00FC8DCA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../Example/coswiftDemo/ViewController.swift; sourceTree = "<group>"; };
+		2316E13F249642FC00FC8DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Example/coswiftDemo/Assets.xcassets; sourceTree = "<group>"; };
+		2316E140249642FC00FC8DCA /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = ../../Example/coswiftDemo/DataService.swift; sourceTree = "<group>"; };
+		2316E143249642FC00FC8DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		2316E144249642FC00FC8DCA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Example/coswiftDemo/Info.plist; sourceTree = "<group>"; };
+		2316E145249642FC00FC8DCA /* coswiftDemo.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; name = coswiftDemo.entitlements; path = ../../Example/coswiftDemo/coswiftDemo.entitlements; sourceTree = "<group>"; };
+		2316E146249642FC00FC8DCA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../Example/coswiftDemo/AppDelegate.swift; sourceTree = "<group>"; };
 		23E9398424963DE20067B743 /* coswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = coswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E9398724963DE20067B743 /* coswift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coswift.h; sourceTree = "<group>"; };
 		23E9398824963DE20067B743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,7 +105,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2316E0CC24963F0100FC8DCA /* Frameworks */ = {
+		2316E128249641EB00FC8DCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,18 +158,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2316E0D024963F0100FC8DCA /* coswiftDemo */ = {
+		2316E12C249641EB00FC8DCA /* coswiftDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2316E0D124963F0100FC8DCA /* AppDelegate.swift */,
-				2316E0D324963F0100FC8DCA /* ViewController.swift */,
-				2316E0ED24963F4100FC8DCA /* DataService.swift */,
-				2316E0D524963F0200FC8DCA /* Assets.xcassets */,
-				2316E0D724963F0200FC8DCA /* Main.storyboard */,
-				2316E0DA24963F0200FC8DCA /* Info.plist */,
-				2316E0DB24963F0200FC8DCA /* coswiftDemo.entitlements */,
+				2316E146249642FC00FC8DCA /* AppDelegate.swift */,
+				2316E13F249642FC00FC8DCA /* Assets.xcassets */,
+				2316E141249642FC00FC8DCA /* Base.lproj */,
+				2316E145249642FC00FC8DCA /* coswiftDemo.entitlements */,
+				2316E140249642FC00FC8DCA /* DataService.swift */,
+				2316E144249642FC00FC8DCA /* Info.plist */,
+				2316E13E249642FC00FC8DCA /* ViewController.swift */,
 			);
 			path = coswiftDemo;
+			sourceTree = "<group>";
+		};
+		2316E141249642FC00FC8DCA /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				2316E142249642FC00FC8DCA /* Main.storyboard */,
+			);
+			name = Base.lproj;
+			path = ../../Example/coswiftDemo/Base.lproj;
 			sourceTree = "<group>";
 		};
 		23E9397A24963DE20067B743 = {
@@ -176,7 +186,7 @@
 			children = (
 				23E9398624963DE20067B743 /* coswift */,
 				2316E09924963E5900FC8DCA /* cocore */,
-				2316E0D024963F0100FC8DCA /* coswiftDemo */,
+				2316E12C249641EB00FC8DCA /* coswiftDemo */,
 				23E9398524963DE20067B743 /* Products */,
 				2316E0C824963EA500FC8DCA /* Frameworks */,
 			);
@@ -187,7 +197,7 @@
 			children = (
 				23E9398424963DE20067B743 /* coswift.framework */,
 				2316E09824963E5900FC8DCA /* cocore.framework */,
-				2316E0CF24963F0100FC8DCA /* coswiftDemo.app */,
+				2316E12B249641EB00FC8DCA /* coswiftDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -256,13 +266,13 @@
 			productReference = 2316E09824963E5900FC8DCA /* cocore.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2316E0CE24963F0100FC8DCA /* coswiftDemo */ = {
+		2316E12A249641EB00FC8DCA /* coswiftDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2316E0E724963F0200FC8DCA /* Build configuration list for PBXNativeTarget "coswiftDemo" */;
+			buildConfigurationList = 2316E138249641EC00FC8DCA /* Build configuration list for PBXNativeTarget "coswiftDemo" */;
 			buildPhases = (
-				2316E0CB24963F0100FC8DCA /* Sources */,
-				2316E0CC24963F0100FC8DCA /* Frameworks */,
-				2316E0CD24963F0100FC8DCA /* Resources */,
+				2316E127249641EB00FC8DCA /* Sources */,
+				2316E128249641EB00FC8DCA /* Frameworks */,
+				2316E129249641EB00FC8DCA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -270,7 +280,7 @@
 			);
 			name = coswiftDemo;
 			productName = coswiftDemo;
-			productReference = 2316E0CF24963F0100FC8DCA /* coswiftDemo.app */;
+			productReference = 2316E12B249641EB00FC8DCA /* coswiftDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		23E9398324963DE20067B743 /* coswift */ = {
@@ -305,8 +315,9 @@
 					2316E09724963E5900FC8DCA = {
 						CreatedOnToolsVersion = 11.5;
 					};
-					2316E0CE24963F0100FC8DCA = {
+					2316E12A249641EB00FC8DCA = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 					23E9398324963DE20067B743 = {
 						CreatedOnToolsVersion = 11.5;
@@ -329,7 +340,7 @@
 			targets = (
 				23E9398324963DE20067B743 /* coswift */,
 				2316E09724963E5900FC8DCA /* cocore */,
-				2316E0CE24963F0100FC8DCA /* coswiftDemo */,
+				2316E12A249641EB00FC8DCA /* coswiftDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -342,12 +353,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2316E0CD24963F0100FC8DCA /* Resources */ = {
+		2316E129249641EB00FC8DCA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2316E0D624963F0200FC8DCA /* Assets.xcassets in Resources */,
-				2316E0D924963F0200FC8DCA /* Main.storyboard in Resources */,
+				2316E148249642FC00FC8DCA /* Assets.xcassets in Resources */,
+				2316E14A249642FC00FC8DCA /* Main.storyboard in Resources */,
+				2316E14B249642FC00FC8DCA /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,13 +390,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2316E0CB24963F0100FC8DCA /* Sources */ = {
+		2316E127249641EB00FC8DCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2316E0EE24963F4100FC8DCA /* DataService.swift in Sources */,
-				2316E0D424963F0100FC8DCA /* ViewController.swift in Sources */,
-				2316E0D224963F0100FC8DCA /* AppDelegate.swift in Sources */,
+				2316E14C249642FC00FC8DCA /* AppDelegate.swift in Sources */,
+				2316E147249642FC00FC8DCA /* ViewController.swift in Sources */,
+				2316E149249642FC00FC8DCA /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +424,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2316E0D724963F0200FC8DCA /* Main.storyboard */ = {
+		2316E142249642FC00FC8DCA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2316E0D824963F0200FC8DCA /* Base */,
+				2316E143249642FC00FC8DCA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -471,42 +483,47 @@
 			};
 			name = Release;
 		};
-		2316E0E824963F0200FC8DCA /* Debug */ = {
+		2316E139249641EC00FC8DCA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = coswiftDemo/coswiftDemo.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/../Example/coswiftDemo/coswiftDemo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G43ZF843DS;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = coswiftDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../Example/coswiftDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.bapuqln.coswiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		2316E0E924963F0200FC8DCA /* Release */ = {
+		2316E13A249641EC00FC8DCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = coswiftDemo/coswiftDemo.entitlements;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/../Example/coswiftDemo/coswiftDemo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = G43ZF843DS;
 				ENABLE_HARDENED_RUNTIME = YES;
-				INFOPLIST_FILE = coswiftDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../Example/coswiftDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.bapuqln.coswiftDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -693,11 +710,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2316E0E724963F0200FC8DCA /* Build configuration list for PBXNativeTarget "coswiftDemo" */ = {
+		2316E138249641EC00FC8DCA /* Build configuration list for PBXNativeTarget "coswiftDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2316E0E824963F0200FC8DCA /* Debug */,
-				2316E0E924963F0200FC8DCA /* Release */,
+				2316E139249641EC00FC8DCA /* Debug */,
+				2316E13A249641EC00FC8DCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

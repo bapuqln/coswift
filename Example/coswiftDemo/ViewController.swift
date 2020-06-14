@@ -13,19 +13,19 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-            co_launch {
-                let str = try DataService.shared.fetchWeatherData()
-                print("\(str)")
-            }
-            
-            let queue = DispatchQueue(label: "MyQueue")
-            co_launch(queue: queue) {
-                print("hehe")
-            }
-            
-            co_launch(stackSize: 128 * 1024) {
-                print("haha")
-            }
+        co_launch {
+            let str = try DataService.shared.fetchWeatherData()
+            print("\(str)")
+        }
+        
+        let queue = DispatchQueue(label: "MyQueue")
+        co_launch(queue: queue) {
+            print("hehe")
+        }
+        
+        co_launch(stackSize: 128 * 1024) {
+            print("haha")
+        }
         // Do any additional setup after loading the view.
     }
 
